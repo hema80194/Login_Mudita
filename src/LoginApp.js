@@ -13,7 +13,6 @@ function LoginPage() {
 
     return (
     <div className="bg-gray-100 flex flex-col md:flex-row items-center justify-center min-h-screen p-4">
-      {/* Card */}
       <div className="card flex flex-col items-center bg-white rounded-lg p-8 max-w-md w-full md:mr-8 mb-4 md:mb-0 shadow-md">
         <div className="flex items-center mb-4">
           <img src={dogPawImage} alt="dog-paw img" className="w-20 h-20 mr-4" />
@@ -57,7 +56,7 @@ function LoginPage() {
         </div>
 
       {/* Dog Image */}
-        <div className="md:block ">
+        <div className="sm:hidden md:block ">
         <img src={newDogImage} alt="dog" className="w-80 h-[430px] object-cover" />
         </div>
     </div>
